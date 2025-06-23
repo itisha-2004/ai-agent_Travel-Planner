@@ -35,7 +35,7 @@ class PlannerState(TypedDict):
 from langchain_groq import ChatGroq
 llm = ChatGroq(
     temperature = 0,
-    groq_api_key = "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",
+    groq_api_key = "",
     model_name = "llama-3.3-70b-versatile"
 )
 
